@@ -9,4 +9,16 @@ public class Classroom {
         this.students = students;
     }
 
+    public void hostLecture(Teacher teacher, double numberOfHours) {
+        teacher.lecture(students, numberOfHours);
+    }
+
+    public Instructors getInstructors() {
+        return instructors;
+    }
+
+    public Students getStudents() {
+        return students;
+    }
+
 }
