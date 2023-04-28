@@ -1,5 +1,8 @@
 package com.example;
 
-public class Teacher {
+public interface Teacher {
 
+    public void teach(Learner learner, double numberOfHours);
+
+    public void lecture(Iterable<? extends Learner> learners, double numberOfHours);
 }
